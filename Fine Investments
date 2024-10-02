@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Investments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fine Investments</h1>
+    <p>Your trusted partner in investment</p>
+</header>
+
+<nav>
+    <a href="#services">Our Services</a>
+    <a href="#mutual-funds">Mutual Funds</a>
+    <a href="#resources">Resources</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Mutual Funds</li>
+        <li>Term Plans</li>
+        <li>SIP, SWP, Lumpsum Investments</li>
+    </ul>
+</section>
+
+<section id="mutual-funds">
+    <h2>Mutual Funds</h2>
+    <p>Types of mutual funds:</p>
+    <ul>
+        <li>Equity Funds</li>
+        <li>Debt Funds</li>
+        <li>Hybrid Funds</li>
+    </ul>
+    <h3>Fund Growth Over Years</h3>
+    <table>
+        <tr>
+            <th>Fund Name</th>
+            <th>1 Year</th>
+            <th>3 Years</th>
+            <th>5 Years</th>
+        </tr>
+        <tr>
+            <td>ABC Fund</td>
+            <td>10%</td>
+            <td>30%</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>XYZ Fund</td>
+            <td>12%</td>
+            <td>35%</td>
+            <td>55%</td>
+        </tr>
+    </table>
+</section>
+
+<section id="resources">
+    <h2>Resources</h2>
+    <ul>
+        <li><a href="https://www.camsonline.com" target="_blank">CAMS</a></li>
+        <li><a href="https://www.amfiindia.com" target="_blank">AMFI</a></li>
+        <li><a href="https://www.sebi.gov.in" target="_blank">SEBI</a></li>
+    </ul>
+</section>
+
+<section id="blogs">
+    <h2>Our Blogs</h2>
+    <p>Stay tuned for daily updates on investment strategies, mutual fund insights, and financial tips.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Name: Narendra Deore</p>
+    <p>Phone: 9422272991, 7058015608</p>
+    <p>Email: narendradeore4334@gmail.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Fine Investments. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
